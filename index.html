@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>GLASSKID </title>
+
     <meta name="title" content="GLASSKID | Fullstack Web Developer, Artist & Songwriter">
-    <meta name="description" content="GLASSKID, also known as Prince Dennis, is an 18-year-old Fullstack Web Developer, Artist, Songwriter, and Multi Instrumentalist from Lagos, Nigeria. Explore modern web projects, creative work, and digital experiences.">
-    <meta name="keywords" content="GLASSKID, Prince Dennis, Fullstack Web Developer, Artist, Songwriter, Multi Instrumentalist, Lagos Nigeria, Portfolio Website, Frontend Developer, JavaScript Developer, React Developer, Tailwind CSS Developer">
+
+    <meta name="description"
+        content="GLASSKID, also known as Prince Dennis, is a Nigerian Fullstack Web Developer, Artist, Songwriter, and Multi Instrumentalist from Lagos. Inspired by emotion, pain, and creativity, he transforms trauma, silence, and life experiences into modern digital art, music, and immersive web experiences.">
+
+    <meta name="keywords"
+        content="GLASSKID, Prince Dennis, Fullstack Web Developer, Artist, Songwriter, Multi Instrumentalist, Lagos Nigeria, Portfolio Website, Frontend Developer, JavaScript Developer, React Developer, Tailwind CSS Developer, emotional artist, creative developer, trauma inspired art">
+
     <meta name="author" content="PRINCE DENNIS">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
     <meta name="theme-color" content="#8B5CF6">
+
     <link rel="canonical" href="https://glasskid.vercel.app/">
 
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://glasskid.vercel.app/">
-    <meta property="og:title" content="GLASSKID | Fullstack Web Developer, Artist & Songwriter">
-    <meta property="og:description" content="Official portfolio of GLASSKID — Fullstack Web Developer, Artist, Songwriter, and Multi Instrumentalist from Lagos, Nigeria.">
+
+    <meta property="og:title" content="GLASSKID | Developer, Artist & Songwriter">
+
+    <meta property="og:description"
+        content="GLASSKID is a Nigerian creative who turns pain, trauma, emotions, and life experiences into expressive music, modern web design, and digital storytelling.">
+
     <meta property="og:image" content="https://glasskid.vercel.app/images/glasskid.jpg">
 
+    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://glasskid.vercel.app/">
-    <meta property="twitter:title" content="GLASSKID | Fullstack Web Developer, Artist & Songwriter">
-    <meta property="twitter:description" content="Official portfolio of GLASSKID — Fullstack Web Developer, Artist, Songwriter, and Multi Instrumentalist from Lagos, Nigeria.">
-    <meta property="twitter:image" content="https://glasskid.vercel.app/images/glasskid.jpg">
 
-    <link rel="icon" type="image/svg+xml" href="/images/ice-glass.svg">
+    <meta property="twitter:title" content="GLASSKID | Developer, Artist & Songwriter">
+
+    <meta property="twitter:description"
+        content="A creative soul shaped by emotion, silence, survival, and art — blending music, design, and storytelling into unforgettable digital experiences.">
+
+    <meta property="twitter:image" content="https://glasskid.vercel.app/images/glasskid.jpg">
+    <meta name="google-site-verification" content="-5GHoul2UoOeC5WcSQhsxK4lne3IrIWkM8Oys-YM77Q" />
+    <link rel="icon" type="image/svg+xml" href="/images/GK-icon.svg">
 
     <script src="https://cdn.tailwindcss.com"></script>
+
     <script>
         tailwind.config = {
             theme: {
@@ -45,8 +64,11 @@
             }
         }
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -55,19 +77,24 @@
       "alternateName": "GLASSKID",
       "url": "https://glasskid.vercel.app",
       "image": "https://glasskid.vercel.app/images/glasskid.jpg",
+
       "jobTitle": [
         "Fullstack Web Developer",
         "Artist",
         "Songwriter",
         "Multi Instrumentalist"
       ],
-      "birthDate": "2007-04-05",
-      "description": "GLASSKID is an 18-year-old Nigerian Fullstack Web Developer, Artist, Songwriter, and Multi Instrumentalist from Lagos. He creates modern web experiences, creative designs, and expressive digital projects.",
+
+      "birthDate": "2006-04-05",
+
+      "description": "GLASSKID is a Nigerian creative developer, artist, and songwriter from Lagos who transforms pain, trauma, emotions, and personal experiences into expressive music, modern digital art, and immersive web experiences.",
+
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Lagos",
         "addressCountry": "Nigeria"
       },
+
       "knowsAbout": [
         "HTML",
         "CSS",
@@ -79,30 +106,138 @@
         "Web Design",
         "Music",
         "Songwriting",
+        "Creative Storytelling",
+        "Digital Art",
         "Multi Instrumentalist"
       ]
     }
     </script>
 </head>
 
-<body class="bg-darkBg text-white font-sans antialiased selection:bg-purple selection:text-black scroll-smooth">
+<body
+    class="bg-darkBg text-white font-sans antialiased selection:bg-purple selection:text-black scroll-smooth overflow-x-hidden">
 
-    <nav aria-label="Main Navigation" class="flex justify-between items-center w-full relative top-0 left-0 z-50 px-10 py-6">
-        <div class="text-2xl font-black tracking-widest text-white uppercase">GLASSKID</div>
-        <div class="hidden md:flex space-x-6 text-sm font-medium tracking-wide">
-            <a href="#" class="text-purple border-b-2 border-purple pb-1 focus:text-purple focus:border-purple focus:border-b-2 focus:outline-none">Home</a>
-            <a href="#about" class="text-gray-400 hover:text-purple focus:text-purple focus:border-b-2 focus:border-purple focus:outline-none transition">About</a>
-            <a href="#skills" class="text-gray-400 hover:text-purple focus:text-purple focus:border-b-2 focus:border-purple focus:outline-none transition">Skills</a>
-            <a href="#projects" class="text-gray-400 hover:text-purple focus:text-purple focus:border-b-2 focus:border-purple focus:outline-none transition">Projects</a>
-            <a href="#contact" class="text-gray-400 hover:text-purple focus:text-purple focus:border-b-2 focus:border-purple focus:outline-none transition">Contact</a>
+    <nav aria-label="Main Navigation"
+        class="flex justify-between items-center w-full relative top-0 left-0 z-50 px-10 py-6">
+        <div class="text-2xl font-black tracking-widest text-white uppercase">
+            GLASSKID
         </div>
-        <button class="md:hidden text-white focus:outline-none" aria-label="Open menu">
+
+        <div
+            class="hidden md:flex md:items-center md:space-x-6 text-sm font-medium tracking-wide absolute md:static top-20 left-0 w-full md:w-auto bg-black md:bg-transparent flex-col md:flex-row items-center gap-6 py-6 md:py-0 z-50">
+            <a href="#"
+                class="text-purple border-b-2 border-purple pb-1 focus:text-purple focus:border-purple focus:border-b-2 focus:outline-none">
+                Home</a>
+
+            <a href="#about"
+                class="text-gray-400 hover:text-purple focus:text-purple focus:border-b-2 focus:border-purple focus:outline-none transition">
+                About</a>
+
+            <a href="#skills"
+                class="text-gray-400 hover:text-purple focus:text-purple focus:border-b-2 focus:border-purple focus:outline-none transition">
+                Skills</a>
+
+            <a href="#projects"
+                class="text-gray-400 hover:text-purple focus:text-purple focus:border-b-2 focus:border-purple focus:outline-none transition">
+                Projects </a>
+
+            <a href="#contact"
+                class="text-gray-400 hover:text-purple focus:text-purple focus:border-b-2 focus:border-purple focus:outline-none transition">
+                Contact</a>
+        </div>
+
+        <!-- MOBILE NAVBAR -->
+        <nav id="navLinks"
+            class="fixed bottom-4 left-1/2 -translate-x-1/2 md:hidden z-50 w-full flex justify-center px-2">
+            <div
+                class="flex items-center justify-center gap-3 bg-black/90 border border-purple/30 backdrop-blur-lg px-3 py-3 rounded-full shadow-2xl max-w-[95vw] overflow-x-auto">
+
+                <!-- HOME -->
+                <a href="#" class="flex flex-col items-center text-purple text-[10px] font-medium transition">
+
+                    <svg class="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 12l2-2m0 0l7-7 7 7m-9 2v8m0-8H5m7 0h7">
+                        </path>
+
+                    </svg>
+
+                    Home
+                </a>
+
+                <!-- ABOUT -->
+                <a href="#about"
+                    class="flex flex-col items-center text-gray-400 hover:text-purple text-[10px] font-medium transition">
+
+                    <svg class="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z">
+                        </path>
+
+                    </svg>
+
+                    About
+                </a>
+
+                <!-- SKILLS -->
+                <a href="#skills"
+                    class="flex flex-col items-center text-gray-400 hover:text-purple text-[10px] font-medium transition">
+
+                    <svg class="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9.75 17L15 12l-5.25-5">
+                        </path>
+
+                    </svg>
+
+                    Skills
+                </a>
+
+                <!-- PROJECTS -->
+                <a href="#projects"
+                    class="flex flex-col items-center text-gray-400 hover:text-purple text-[10px] font-medium transition">
+
+                    <svg class="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 11H5m14-7H5m14 14H5">
+                        </path>
+
+                    </svg>
+
+                    Projects
+                </a>
+
+                <!-- CONTACT -->
+                <a href="#contact"
+                    class="flex flex-col items-center text-gray-400 hover:text-purple text-[10px] font-medium transition">
+
+                    <svg class="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8">
+                        </path>
+
+                    </svg>
+
+                    Contact
+                </a>
+
+            </div>
+
+        </nav>
+
+        <button id="menuBtn" class="md:hidden text-white focus:outline-none" aria-label="Open menu">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                </path>
             </svg>
         </button>
-    </nav>
 
+    </nav>
     <header class="min-h-screen flex flex-col justify-between px-6 md:px-16 lg:px-24 py-6 overflow-hidden">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center my-auto pt-12 lg:pt-0">
             <div class="space-y-4 max-w-xl">
@@ -114,17 +249,21 @@
                     Fullstack Web Developer
                 </p>
                 <div class="flex flex-wrap gap-4 pt-6">
-                    <a href="#contact" class="bg-purple focus:outline-none text-white font-semibold text-xs uppercase tracking-widest px-8 py-4 rounded-full hover:bg-white hover:text-black transition duration-300 shadow-lg shadow-purple/20">
+                    <a href="#contact"
+                        class="bg-purple focus:outline-none text-white font-semibold text-xs uppercase tracking-widest px-8 py-4 rounded-full hover:bg-white hover:text-black transition duration-300 shadow-lg shadow-purple/20">
                         Hire Me
                     </a>
-                    <a href="#projects" class="border focus:outline-none border-purple text-white font-semibold text-xs uppercase tracking-widest px-8 py-4 rounded-full hover:bg-purple hover:text-white transition duration-300">
+                    <a href="#projects"
+                        class="border focus:outline-none border-purple text-white font-semibold text-xs uppercase tracking-widest px-8 py-4 rounded-full hover:bg-purple hover:text-white transition duration-300">
                         My Works
                     </a>
                 </div>
             </div>
 
             <div class="flex justify-center lg:justify-end items-end self-end h-full">
-                <img src="/images/prince-cute.jpg" alt="GLASSKID portrait photo, fullstack web developer from Lagos, Nigeria" class="w-full max-w-md lg:max-w-lg object-cover pointer-events-none" loading="eager">
+                <img src="/images/prince-cute.jpg"
+                    alt="GLASSKID portrait photo, fullstack web developer from Lagos, Nigeria"
+                    class="w-full max-w-md lg:max-w-lg object-cover pointer-events-none" loading="eager">
             </div>
         </div>
     </header>
@@ -134,18 +273,21 @@
     <section id="about" class="py-24 px-6 md:px-16 lg:px-24 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div class="lg:col-span-5 flex justify-center">
             <div class="max-w-sm lg:max-w-none w-full">
-                <img src="/images/glasskid-portfolio.png" alt="GLASSKID portfolio image" loading="lazy" class="w-full object-cover rounded-sm shadow-2xl">
+                <img src="/images/glasskid-portfolio.png" alt="GLASSKID portfolio image" loading="lazy"
+                    class="w-full object-cover rounded-sm shadow-2xl">
             </div>
         </div>
 
         <div class="lg:col-span-7 relative space-y-6">
-            <div class="absolute -top-16 left-0 text-7xl md:text-8xl font-black text-gray-800/10 tracking-wider uppercase select-none pointer-events-none">
+            <div
+                class="absolute -top-16 left-0 text-7xl md:text-8xl font-black text-gray-800/10 tracking-wider uppercase select-none pointer-events-none">
                 About
             </div>
 
             <h2 class="text-4xl font-bold tracking-tight z-10 relative">About Me</h2>
             <p class="text-gray-400 text-sm leading-relaxed max-w-xl">
-                GLASSKID, whose real name is Prince Dennis, is a creative soul with a love for web development and music. He is a sensitive, expressive person who turns emotion into art, code, and sound.
+                GLASSKID is a creative soul with a love for web development and music. He is a sensitive, expressive
+                person who turns emotion into art, code, and sound.
             </p>
 
             <div class="max-w-xl pt-4">
@@ -157,13 +299,14 @@
                     <dd class="text-gray-400 sm:col-span-2">PRINCE DENNIS</dd>
 
                     <dt class="font-bold text-white sm:col-span-1">Age:</dt>
-                    <dd class="text-gray-400 sm:col-span-2">18</dd>
+                    <dd class="text-gray-400 sm:col-span-2">19</dd>
 
                     <dt class="font-bold text-white sm:col-span-1">Date of birth:</dt>
-                    <dd class="text-gray-400 sm:col-span-2">APRIL 5TH 2007</dd>
+                    <dd class="text-gray-400 sm:col-span-2">APRIL 5TH 2006</dd>
 
                     <dt class="font-bold text-white sm:col-span-1">Professions:</dt>
-                    <dd class="text-gray-400 sm:col-span-2">WEB DEVELOPER, ARTIST, SONGWRITER, MULTI INSTRUMENTALIST</dd>
+                    <dd class="text-gray-400 sm:col-span-2">WEB DEVELOPER, ARTIST, SONGWRITER, MULTI INSTRUMENTALIST
+                    </dd>
 
                     <dt class="font-bold text-white sm:col-span-1">Address:</dt>
                     <dd class="text-gray-400 sm:col-span-2">lagos NIGERIA</dd>
@@ -178,9 +321,10 @@
 
             <div class="pt-4 space-y-6">
                 <p class="text-lg font-medium">
-                    <span class="text-purple text-2xl font-bold mr-1">10</span> Project complete
+                    <span class="text-purple text-2xl font-bold mr-1">50</span> Project completed, 3 avaliable for now.
                 </p>
-                <a href="#projects" class="inline-block bg-purple focus:outline-none text-black font-bold text-xs uppercase tracking-widest px-8 py-4 rounded-full hover:bg-white transition duration-300 shadow-md">
+                <a href="#projects"
+                    class="inline-block bg-purple focus:outline-none text-black font-bold text-xs uppercase tracking-widest px-8 sm:px-8 py-4 rounded-full hover:bg-white transition duration-300 shadow-md">
                     View Project
                 </a>
             </div>
@@ -191,7 +335,8 @@
 
     <section id="skills" class="py-24 px-6 md:px-16 lg:px-24 max-w-6xl mx-auto relative">
         <div class="text-center relative mb-16">
-            <div class="absolute -top-12 left-1/2 -translate-x-1/2 text-7xl md:text-8xl font-black text-gray-800/10 tracking-wider uppercase select-none pointer-events-none">
+            <div
+                class="absolute -top-12 left-1/2 -translate-x-1/2 text-7xl md:text-8xl font-black text-gray-800/10 tracking-wider uppercase select-none pointer-events-none">
                 Skills
             </div>
             <h2 class="text-4xl font-bold tracking-tight z-10 relative mb-4">My Skills</h2>
@@ -267,7 +412,8 @@
 
     <section id="projects" class="py-24 px-6 md:px-16 lg:px-24 max-w-6xl mx-auto">
         <div class="text-center relative mb-16">
-            <div class="absolute -top-12 left-1/2 -translate-x-1/2 text-7xl md:text-8xl font-black text-gray-800/10 tracking-wider uppercase select-none pointer-events-none">
+            <div
+                class="absolute -top-12 left-1/2 -translate-x-1/2 text-7xl md:text-8xl font-black text-gray-800/10 tracking-wider uppercase select-none pointer-events-none">
                 Projects
             </div>
             <h2 class="text-4xl font-bold tracking-tight z-10 relative mb-4">Our Projects</h2>
@@ -278,42 +424,60 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="group relative overflow-hidden bg-gray-900 rounded-lg aspect-[4/3] cursor-pointer">
-                <img src="/images/digitalbank.png" alt="Digital bank landing page project by GLASSKID" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
-                <div class="absolute inset-0 bg-black/80 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span class="text-purple text-xs uppercase tracking-widest font-semibold mb-1">Digital bank landing page</span>
+                <img src="/images/digitalbank.png" alt="Digital bank landing page project by GLASSKID"
+                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
+                <div
+                    class="absolute inset-0 bg-black/80 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span class="text-purple text-xs uppercase tracking-widest font-semibold mb-1">Digital bank landing
+                        page</span>
                     <h3 class="text-xl font-bold text-white mb-3">A modern, professional design with sleek layout.</h3>
-                    <a href="https://glasskid-digitalbank.netlify.app/" target="_blank" class="inline-flex items-center text-xs uppercase tracking-wider font-bold text-white hover:text-purple transition">
+                    <a href="https://glasskid-digitalbank.netlify.app/" target="_blank"
+                        class="inline-flex items-center text-xs uppercase tracking-wider font-bold text-white hover:text-purple transition">
                         View Project
-                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
                     </a>
                 </div>
             </div>
 
             <div class="group relative overflow-hidden bg-gray-900 rounded-lg aspect-[4/3] cursor-pointer">
-                <img src="/images/social-proof.jpg" alt="Social proof section website project by GLASSKID" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
-                <div class="absolute inset-0 bg-black/80 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span class="text-purple text-xs uppercase tracking-widest font-semibold mb-1">Social Proof Section</span>
+                <img src="/images/social-proof.jpg" alt="Social proof section website project by GLASSKID"
+                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
+                <div
+                    class="absolute inset-0 bg-black/80 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span class="text-purple text-xs uppercase tracking-widest font-semibold mb-1">Social Proof
+                        Section</span>
                     <h3 class="text-xl font-bold text-white mb-3">Products/services testimonials and rating cards.</h3>
-                    <a href="https://glasskid-social-proof.vercel.app/" target="_blank" class="inline-flex items-center text-xs uppercase tracking-wider font-bold text-white hover:text-purple transition">
+                    <a href="https://glasskid-social-proof.vercel.app/" target="_blank"
+                        class="inline-flex items-center text-xs uppercase tracking-wider font-bold text-white hover:text-purple transition">
                         View Project
-                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
                     </a>
                 </div>
             </div>
 
             <div class="group relative overflow-hidden bg-gray-900 rounded-lg aspect-[4/3] cursor-pointer">
-                <img src="/images/grocify.png" alt="Grocify ecommerce website project by GLASSKID" class="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
-                <div class="absolute inset-0 bg-black/80 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <img src="/images/grocify.png" alt="Grocify ecommerce website project by GLASSKID"
+                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy">
+                <div
+                    class="absolute inset-0 bg-black/80 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <span class="text-purple text-xs uppercase tracking-widest font-semibold mb-1">Grocify.com</span>
-                    <h3 class="text-xl font-bold text-white mb-3">Online Delivering Platform For Wide Range Of Fresh Product</h3>
-                    <a href="https://gk-grocify.netlify.app/" target="_blank" class="inline-flex items-center text-xs uppercase tracking-wider font-bold text-white hover:text-purple transition">
+                    <h3 class="text-xl font-bold text-white mb-3">Online Delivering Platform For Wide Range Of Fresh
+                        Product</h3>
+                    <a href="https://gk-grocify.netlify.app/" target="_blank"
+                        class="inline-flex items-center text-xs uppercase tracking-wider font-bold text-white hover:text-purple transition">
                         View Project
-                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                         </svg>
                     </a>
                 </div>
@@ -325,7 +489,8 @@
 
     <section id="contact" class="py-24 px-6 md:px-16 lg:px-24 max-w-6xl mx-auto relative">
         <div class="text-center relative mb-16">
-            <div class="absolute -top-12 left-1/2 -translate-x-1/2 text-7xl md:text-8xl font-black text-gray-800/10 tracking-wider uppercase select-none pointer-events-none">
+            <div
+                class="absolute -top-12 left-1/2 -translate-x-1/2 text-7xl md:text-8xl font-black text-gray-800/10 tracking-wider uppercase select-none pointer-events-none">
                 Contact
             </div>
             <h2 class="text-4xl font-bold tracking-tight z-10 relative mb-4">Contact Me</h2>
@@ -339,8 +504,11 @@
                 <div class="bg-cardBg p-6 rounded-xl border border-purple flex items-center space-x-4">
                     <div class="bg-gray-900 p-4 rounded-full text-purple">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                         </svg>
                     </div>
                     <div>
@@ -352,7 +520,9 @@
                 <div class="bg-cardBg p-6 rounded-xl border border-purple flex items-center space-x-4">
                     <div class="bg-gray-900 p-4 rounded-full text-purple">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                            </path>
                         </svg>
                     </div>
                     <div>
@@ -364,7 +534,9 @@
                 <div class="bg-cardBg p-6 rounded-xl border border-purple flex items-center space-x-4">
                     <div class="bg-gray-900 p-4 rounded-full text-purple">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L22 8m-9 5a2 2 0 01-2 0L3 8m18 0v10a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h14a2 2 0 012 2z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L22 8m-9 5a2 2 0 01-2 0L3 8m18 0v10a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h14a2 2 0 012 2z">
+                            </path>
                         </svg>
                     </div>
                     <div>
@@ -374,27 +546,37 @@
                 </div>
             </div>
 
-            <form class="lg:col-span-7 bg-cardBg p-8 rounded-2xl border border-purple space-y-6" action="https://formspree.io/f/mbdbprea" method="POST">
+            <form class="lg:col-span-7 bg-cardBg p-8 rounded-2xl border border-purple space-y-6"
+                action="https://formspree.io/f/mbdbprea" method="POST">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                        <label class="block text-xs uppercase tracking-widest text-gray-400 font-semibold mb-2">Your Name</label>
-                        <input type="text" name="name" placeholder="John Doe" class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-purple transition">
+                        <label class="block text-xs uppercase tracking-widest text-gray-400 font-semibold mb-2">Your
+                            Name</label>
+                        <input type="text" name="name" placeholder="John Doe"
+                            class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-purple transition">
                     </div>
                     <div>
-                        <label class="block text-xs uppercase tracking-widest text-gray-400 font-semibold mb-2">Your Email</label>
-                        <input type="email" name="email" placeholder="john@example.com" class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-purple transition">
+                        <label class="block text-xs uppercase tracking-widest text-gray-400 font-semibold mb-2">Your
+                            Email</label>
+                        <input type="email" name="email" placeholder="john@example.com"
+                            class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-purple transition">
                     </div>
                 </div>
                 <div>
-                    <label class="block text-xs uppercase tracking-widest text-gray-400 font-semibold mb-2">Subject</label>
-                    <input type="text" name="subject" placeholder="Project Discussion" class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-purple transition">
+                    <label
+                        class="block text-xs uppercase tracking-widest text-gray-400 font-semibold mb-2">Subject</label>
+                    <input type="text" name="subject" placeholder="Project Discussion"
+                        class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-purple transition">
                 </div>
                 <div>
-                    <label class="block text-xs uppercase tracking-widest text-gray-400 font-semibold mb-2">Message</label>
-                    <textarea rows="5" name="message" placeholder="Tell me about your project..." class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-purple transition resize-none"></textarea>
+                    <label
+                        class="block text-xs uppercase tracking-widest text-gray-400 font-semibold mb-2">Message</label>
+                    <textarea rows="5" name="message" placeholder="Tell me about your project..."
+                        class="w-full bg-darkBg border border-gray-800 rounded-lg px-4 py-3.5 text-sm text-white focus:outline-none focus:border-purple transition resize-none"></textarea>
                 </div>
                 <div>
-                    <button type="submit" class="bg-purple focus:outline-none text-black font-bold text-xs uppercase tracking-widest px-8 py-4 rounded-full hover:bg-white transition duration-300 w-full sm:w-auto shadow-md">
+                    <button type="submit"
+                        class="bg-purple focus:outline-none text-black font-bold text-xs uppercase tracking-widest px-8 sm:px-8 py-4 rounded-full hover:bg-white transition duration-300 w-full sm:w-auto shadow-md">
                         Send Message
                     </button>
                 </div>
@@ -418,24 +600,42 @@
             </div>
 
             <div class="flex items-center space-x-4">
-                <a href="#" class="w-9 h-9 rounded-full bg-cardBg border border-gray-800 flex items-center justify-center text-gray-400 hover:text-black hover:bg-purple hover:border-purple transition duration-300" aria-label="X / Twitter">
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                <a href="wa.me/09136893921"
+                    class="w-9 h-9 rounded-full bg-cardBg border border-gray-800 flex items-center justify-center text-gray-400 hover:text-black hover:bg-purple hover:border-purple transition duration-300"
+                    aria-label="Whatsapp">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path
+                            d="M20.52 3.48A11.86 11.86 0 0012.04 0C5.4 0 .02 5.38.02 12c0 2.12.55 4.2 1.6 6.03L0 24l6.17-1.6A11.94 11.94 0 0012.04 24c6.63 0 12.01-5.38 12.01-12 0-3.2-1.25-6.2-3.53-8.52zM12.04 21.82c-1.8 0-3.57-.48-5.12-1.38l-.37-.22-3.66.95.98-3.57-.24-.37A9.77 9.77 0 012.22 12c0-5.42 4.4-9.82 9.82-9.82 2.62 0 5.08 1.02 6.93 2.87A9.75 9.75 0 0121.82 12c0 5.42-4.4 9.82-9.78 9.82zm5.39-7.34c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.78-1.47-1.74-1.64-2.04-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.8.37-.27.3-1.05 1.02-1.05 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.48.71.3 1.27.48 1.7.62.72.23 1.37.2 1.88.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" />
                     </svg>
                 </a>
-                <a href="#" class="w-9 h-9 rounded-full bg-cardBg border border-gray-800 flex items-center justify-center text-gray-400 hover:text-black hover:bg-purple hover:border-purple transition duration-300" aria-label="GitHub">
+                <a href="https://github.com/glasskid01" target="_blank"
+                    class="w-9 h-9 rounded-full bg-cardBg border border-gray-800 flex items-center justify-center text-gray-400 hover:text-black hover:bg-purple hover:border-purple transition duration-300"
+                    aria-label="GitHub">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.646.64.699 1.026 1.592 1.026 2.683 0 3.842-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.137 20.162 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.646.64.699 1.026 1.592 1.026 2.683 0 3.842-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.137 20.162 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
                     </svg>
                 </a>
-                <a href="#" class="w-9 h-9 rounded-full bg-cardBg border border-gray-800 flex items-center justify-center text-gray-400 hover:text-black hover:bg-purple hover:border-purple transition duration-300" aria-label="LinkedIn">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"
+                    class="w-9 h-9 rounded-full bg-cardBg border border-gray-800 flex items-center justify-center text-gray-400 hover:text-black hover:bg-purple hover:border-purple transition duration-300"
+                    aria-label="LinkedIn">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                     </svg>
                 </a>
             </div>
         </div>
     </footer>
 
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const navLinks = document.getElementById("navLinks");
+
+        menuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("hidden");
+        });
+    </script>
 </body>
+
 </html>
