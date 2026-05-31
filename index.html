@@ -648,8 +648,20 @@
         const menuBtn = document.getElementById("menuBtn");
         const navLinks = document.getElementById("navLinks");
 
-        menuBtn.addEventListener("click", () => {
+        // Open / Close navbar
+        menuBtn.addEventListener("click", (e) => {
+            e.stopPropagation();
             navLinks.classList.toggle("hidden");
+        });
+
+        // Prevent clicks inside navbar from closing it
+        navLinks.addEventListener("click", (e) => {
+            e.stopPropagation();
+        });
+
+        // Click anywhere else to close navbar
+        document.addEventListener("click", () => {
+            navLinks.classList.add("hidden");
         });
     </script>
 </body>
